@@ -13,6 +13,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Data } from './../providers/data';
 
 import {AngularFireModule} from 'angularfire2';
+import { Connection } from './../components/connection/connection';
 
 
 const config = {
@@ -30,7 +31,8 @@ const config = {
     MyApp,
     PostPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    Connection
   ],
   imports: [
     BrowserModule,
